@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Talkboost">
         <activity
+            android:name=".chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".splashScreen.SplashScreen"
             android:exported="true">
             <intent-filter>
